@@ -1,0 +1,38 @@
+{
+  "name": "discord.js-kitagawa",
+  "version": "1.0.0-beta",
+  "description": "",
+  "main": "./src/kadc.js",
+  "scripts": {
+    "dev": "nodemon ./src/kadc.js",
+    "start": "node ./src/kadc.js",
+    "deploy": "node ./src/deploy-commands.js"
+  },
+  "keywords": [
+    "kadc03",
+    "kitagawa"
+  ],
+  "author": "kadc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kadc03/Discord.JS-TemplateHandler-Bot/issues"
+  },
+  "homepage": "https://github.com/kadc03/Discord.JS-TemplateHandler-Bot#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^4.1.2",
+    "common-tags": "^1.8.2",
+    "discord.js": "^14.13.0",
+    "mysql2": "^3.6.0",
+    "node-cron": "^3.0.2",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.32.1",
+    "sequelize-cli": "^6.6.1"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "devDependencies": {
+    "node": "v18.10.0"
+  }
+}
